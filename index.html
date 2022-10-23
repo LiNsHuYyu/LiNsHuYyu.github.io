@@ -65,8 +65,11 @@
 </style>
 
 <script>
-	
-
+$(document).ready(function(){
+  $("li").click(function(){
+    $(this).hide();
+  });
+});
 </script>
 
 <h2 class="cornflowerblue-text middle">Hello，我是醫資二的林書榆</h2>
@@ -84,17 +87,18 @@
     <div class="powderblue-background middle">
       <p>日常興趣:</p>
       <ul>
-        <li>看電影、追劇:Netflix, Disney+</li>
-        <li>足球:Arsenal</li>
-        <li>玩一些單機遊戲</li>
+        <li>看電影、追劇:<a href="https://www.netflix.com/browse">Netflix</a>.</li>
+        <li>足球:<a href="https://arsenaldirect.arsenal.com/">Arsenal</a>.</li>
+        <li>單機遊戲:<a href="https://store.steampowered.com/?l=tchinese">Steam</a>.</li>
       </ul>
     </div>
     
     <div class="mistyrose-background arsenal">
     	<p class="middle azure-background">參考圖片</p>
-      <img src="https://cdn.icon-icons.com/icons2/3053/PNG/512/netflix_macos_bigsur_icon_189917.png" style="display:block; margin:auto;"/>
-      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/1200px-Arsenal_FC.svg.png" style="display:block; margin:auto;" />
-      <img src="https://cdn1.epicgames.com/offer/05057ec2d5ea43c3b0701cc1518e0577/EGS_GothamKnights_WarnerBrosGamesMontreal_S2_1200x1600-5a46b442e57afa637f013bbc09fe5487" style="display:block; margin:auto;"/>
+        <img id="myImage" src="http://cdn.onlinewebfonts.com/svg/img_74572.png" style="display:block; margin:auto;"/>
+        <button style="display:block; margin:auto;" onclick= "document.getElementById('myImage').src='https://cdn.icon-icons.com/icons2/3053/PNG/512/netflix_macos_bigsur_icon_189917.png'">~Netflix~</button>
+        <button style="display:block; margin:auto;" onclick= "document.getElementById('myImage').src='https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/1200px-Arsenal_FC.svg.png'">~Arsenal~</button>
+        <button style="display:block; margin:auto;" onclick= "document.getElementById('myImage').src='https://cdn1.epicgames.com/offer/05057ec2d5ea43c3b0701cc1518e0577/EGS_GothamKnights_WarnerBrosGamesMontreal_S2_1200x1600-5a46b442e57afa637f013bbc09fe5487'">~Gotham Knight~</button>
     </div>
     
     <div class="powderblue-background middle">
