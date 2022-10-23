@@ -1,13 +1,20 @@
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 
 <!DOCTYPE html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 <script>
-$(".btn").click(
-  function(){
-    $(this).addClass("changebtn");
-  }
-);
+  $(document).ready(function() {
+  	$("#allPass").click(function(){
+    	$(this).hide();
+  	});
+    $("#partTime").click(function(){
+    	$(this).hide();
+  	});
+    $("#ielts").click(function(){
+    	$(this).hide();
+  	});
+  });
 </script>
 
 <style>
@@ -72,8 +79,9 @@ $(".btn").click(
     font-family: DFKai-sb;
   }
   
-  .changebtn{
+  .clickme{
     font-family: Lobster;
+    font-size: 16px;
   }
   
   .btn{
@@ -115,11 +123,12 @@ $(".btn").click(
     
     <div class="powderblue-background middle">
       <p>近期目標:</p>
-      <ol>
-        <li>學期all pass</li>
-        <li>找打工</li>
-        <li>考雅思</li>
-      </ol>
+        <ol>
+          <li id="allPass">學期all pass</li>
+          <li id="partTime">找打工</li>
+          <li id="ielts">考雅思</li>
+        </ol>
+      <p class="clickme">try to click me</p>
     </div>
   </main>
 </html>
