@@ -66,9 +66,7 @@
 
 <script>
 $(document).ready(function(){
-  $("li").click(function(){
-    $(this).hide();
-  });
+	$("netflix").css("color", "firebrick")
 });
 </script>
 
@@ -96,7 +94,7 @@ $(document).ready(function(){
     <div class="mistyrose-background arsenal">
     	<p class="middle azure-background">參考圖片</p>
         <img id="myImage" src="http://cdn.onlinewebfonts.com/svg/img_74572.png" style="display:block; margin:auto;"/>
-        <button style="display:block; margin:auto;" onclick= "document.getElementById('myImage').src='https://cdn.icon-icons.com/icons2/3053/PNG/512/netflix_macos_bigsur_icon_189917.png'">~Netflix~</button>
+        <button id="netflix" style="display:block; margin:auto;" onclick= "document.getElementById('myImage').src='https://cdn.icon-icons.com/icons2/3053/PNG/512/netflix_macos_bigsur_icon_189917.png'">~Netflix~</button>
         <button style="display:block; margin:auto;" onclick= "document.getElementById('myImage').src='https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/1200px-Arsenal_FC.svg.png'">~Arsenal~</button>
         <button style="display:block; margin:auto;" onclick= "document.getElementById('myImage').src='https://cdn1.epicgames.com/offer/05057ec2d5ea43c3b0701cc1518e0577/EGS_GothamKnights_WarnerBrosGamesMontreal_S2_1200x1600-5a46b442e57afa637f013bbc09fe5487'">~Gotham Knight~</button>
     </div>
