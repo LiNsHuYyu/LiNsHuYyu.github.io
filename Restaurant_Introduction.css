@@ -1,0 +1,46 @@
+.parallax {
+    /* The image used */
+    background-image: url("pic/manson-yim-lYDOrOkR_GU-unsplash.jpg");
+   
+    /* Set a specific height */
+    min-height: 1000px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.parallax2 {
+    /* The image used */
+    background-image: url("pic/02-1.jpg");
+   
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h3{
+    font-size: 36px;
+  }
+  .navbar-brand
+  {
+    font-size: 36px;
+  }
+  .parallax3 {
+    /* The image used */
+    background-image: url("pic/the-free-birds-6bF6kS4WJk0-unsplash.jpg");
+   
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
