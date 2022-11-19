@@ -3,18 +3,10 @@
 <head>
   <title>Menu</title>
   <meta charset="utf-8">
-  <!--bootstrap navbar link-->
+  <!--bootstrap link-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-  <!--bootstrap rounded circle link-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-  <!--bootstrap card link-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-  <!--modal link-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="Restaurant_Introduction.css" rel="stylesheet">
 </head>
 
 <body>
@@ -45,8 +37,22 @@
             </div>
         </div>
 	</nav>
+    <!--dropdowns-->
+    <p></p>
+    <div class="dropdown d-grid">
+      <button type="button" class="btn btn-outline-info dropdown-toggle" data-bs-toggle="dropdown">
+        Dropdown button
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#steamed">蒸點</a></li>
+        <li><a class="dropdown-item" href="#fried">炸物</a></li>
+        <li><a class="dropdown-item" href="#riceNnoodle">飯、麵</a></li>
+        <li><a class="dropdown-item" href="#">湯品</a></li>
+      </ul>
+  	</div>
     <!--card1_steamed-->
-    <div class="card-group" style="width:1300px">
+    <p></p>
+    <div class="card-group" id="steamed" style="width:1300px">
       <div class="card">
         <img src="https://drive.google.com/uc?id=1V_4i4lNXRUwgukfbY_B-Btq_JlNd09dE" class="card-img-top rounded-circle" alt="..." width="120" height="280" style="width:100%">
         <div class="card-body">
@@ -89,7 +95,8 @@
       </div>
     </div>
     <!--card2_fried-->
-    <div class="card-group" style="width:1300px">
+    <p></p>
+    <div class="card-group" id="fried" style="width:1300px">
       <div class="card">
         <img src="https://drive.google.com/uc?id=1GhVyvuUu8Lkuu93CpGCB8XEIDx1xJyFT" class="card-img-top rounded-circle" alt="..." width="120" height="280" style="width:100%">
         <div class="card-body">
@@ -127,6 +134,50 @@
         <div class="card-body">
           <h5 class="card-title">叉燒酥&nbsp&nbsp$138</h5>
           <p class="card-text">BBQ Pork Puff</p>
+          <a href="#" class="btn btn-primary">See Detail</a>
+        </div>
+      </div>
+    </div>
+    <!--card3_riceNnoodle-->
+    <p class="food-type">飯、粥、麵</p>
+    <div class="card-group" id="riceNnoodle" style="width:1300px">
+      <div class="card">
+        <img src="https://drive.google.com/uc?id=1Xm6kaB8GldSps3qjT_p8PTXttQ3grxtQ" class="card-img-top rounded-circle" alt="..." width="120" height="280" style="width:100%">
+        <div class="card-body">
+          <h5 class="card-title">鳳爪排骨蒸飯&nbsp&nbsp$206</h5>
+          <p class="card-text">Steamed Chicken Feet and Spareribs Rice</p>
+          <a href="#" class="btn btn-primary">See Detail</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://drive.google.com/uc?id=1SJs30kOK5LXElxyBTCiGyYRIXX7lj-Kv" class="card-img-top rounded-circle" alt="..." width="140" height="280" style="width:100%">
+        <div class="card-body">
+          <h5 class="card-title">鼓汁帶子蒸飯&nbsp&nbsp$216</h5>
+          <p class="card-text">Steamed Scallop Rice with Soy Sauce</p>
+          <a href="#" class="btn btn-primary">See Detail</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://drive.google.com/uc?id=1LLHBajQjMqgpIuWYgWkW_twkiTAl3ezi" class="card-img-top rounded-circle" alt="..." width="120" height="280" style="width:100%">
+        <div class="card-body">
+          <h5 class="card-title">臘味煲仔飯&nbsp&nbsp$336</h5>
+          <p class="card-text">ClayPot Rice with Cantonese Sausage</p>
+          <a href="#" class="btn btn-primary">See Detail</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://drive.google.com/uc?id=1CN8_X-uqKpzeZsGGQVunq7XmUTr00DLV" class="card-img-top rounded-circle" alt="..." width="120" height="280" style="width:100%">
+        <div class="card-body">
+          <h5 class="card-title">皮蛋瘦肉粥&nbsp&nbsp$276</h5>
+          <p class="card-text">Century Egg Pork Lean Congee</p>
+          <a href="#" class="btn btn-primary">See Detail</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://drive.google.com/uc?id=1NAVKosTun4mtEfclbFTskFW4A9kxSzFT" class="card-img-top rounded-circle" alt="..." width="120" height="280" style="width:100%">
+        <div class="card-body">
+          <h5 class="card-title">干炒牛河&nbsp&nbsp$238</h5>
+          <p class="card-text">Fried RiceNoodle with Sliced Beef</p>
           <a href="#" class="btn btn-primary">See Detail</a>
         </div>
       </div>
